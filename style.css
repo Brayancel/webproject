@@ -1,0 +1,53 @@
+html {
+height:100%;
+}
+.pgbloc{
+display:flex;
+flex-direction:column;
+height:100%;
+}
+
+.pgbloc div{
+border:2px solid blue;
+}
+
+.pgbloc .one{
+height:500px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.pgbloc .two{
+height:400px;
+}
+.pgbloc .three{
+height:400px;
+}
+.pgbloc .four{
+height:400px;
+}
+.pgbloc .bottom{
+height:80px;
+}
+
+.pgbloc .header {
+display:flex;
+height:80px;
+}
+.one .logos {
+display:flex;
+flex-direction:row;
+height:300px;
+width:800px;
+border:1px solid white;
+}
+.logos div{
+height:300px;
+width:400px;
+}
+
+.pgbloc .bottom{
+display:flex;
+height:80px;
+}
