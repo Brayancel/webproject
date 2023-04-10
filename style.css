@@ -12,6 +12,7 @@ border:2px solid blue;
 }
 
 .pgbloc .one{
+background-color:#1F2937;
 height:500px;
 display:flex;
 flex-direction:column;
@@ -32,6 +33,7 @@ height:80px;
 }
 
 .pgbloc .header {
+background-color:#1F2037;
 display:flex;
 height:80px;
 }
@@ -44,7 +46,7 @@ border:1px solid white;
 }
 .logos div{
 height:260px;
-width:480px;
+width:500px;
 }
 
 
@@ -91,10 +93,47 @@ align-items:center;
 .three .txt{
 display:flex;
 flex-wrap:wrap;
-height:300px;
+height:180px;
 width:800px;
 border: 1px solid green;
 }
   .txt h2{
   text-align:center;
   }
+.pgbloc .four {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.four .signup{
+display:flex;
+flex-direction:row;
+height:150px;
+width:800px;
+border: 1px solid black;
+}
+   .signup .um{
+   height:150px;
+   flex:2;
+   border: 1px solid white;
+   }
+   .signup .dois{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:150px;
+   flex:1;
+   border: 1px solid white;
+   }
+   .dois  button{
+   height:30px;
+   width:90px;
+   }
+.pgbloc .bottom{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+     .bottom div{
+     border:1px solid white;
+     }
