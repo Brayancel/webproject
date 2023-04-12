@@ -23,21 +23,35 @@ align-items:center;
 height:400px;
 }
 .pgbloc .three{
+background-color:#E5E7EB;
 height:400px;
 }
 .pgbloc .four{
 height:400px;
 }
 .pgbloc .bottom{
+background-color:#1F2937;
+color:white;
 height:80px;
 }
 
 .pgbloc .header {
 background-color:#1F2037;
+color:white;
 display:flex;
-height:80px;
+height:60px;
 }
+  .header h3 {
+  font-weight:18px #E5E7EB;
+  }
+  .he1 h1{
+  font-weight:48px extra-bold #F9FAF8;
+  }
+
+
+
 .one .logos {
+color:white;
 display:flex;
 flex-direction:row;
 height:260px;
@@ -99,13 +113,16 @@ border: 1px solid green;
 }
   .txt h2{
   text-align:center;
+  font-style:;
   }
 .pgbloc .four {
+color:white;
 display:flex;
 justify-content:center;
 align-items:center;
 }
 .four .signup{
+background-color:#3882F6;
 display:flex;
 flex-direction:row;
 height:150px;
@@ -126,6 +143,9 @@ border: 1px solid black;
    border: 1px solid white;
    }
    .dois  button{
+   background-color:#3882F6;
+   border:1px solid white;
+   color:white;
    height:30px;
    width:90px;
    }
