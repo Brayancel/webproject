@@ -1,6 +1,11 @@
 html {
 height:100%;
 }
+
+body {
+font-family:roboto;
+}
+
 .pgbloc{
 display:flex;
 flex-direction:column;
@@ -34,7 +39,9 @@ background-color:#1F2937;
 color:white;
 height:80px;
 }
-
+.pgbloc button {
+border-radius:8px;
+}
 .pgbloc .header {
 background-color:#1F2037;
 color:white;
@@ -43,14 +50,18 @@ height:60px;
 }
   .header h3 {
   font-weight:18px #E5E7EB;
+  text-align:center;
   }
-  .he1 h1{
-  font-weight:48px extra-bold #F9FAF8;
+  .he1 h3{
+  text-align:center;
+  font-weight:#F9FAF8;
+  font-size:24px;
   }
 
 
 
 .one .logos {
+text-align:left;
 color:white;
 display:flex;
 flex-direction:row;
@@ -58,6 +69,24 @@ height:260px;
 width:1000px;
 border:1px solid white;
 }
+   .sign button {
+   background-color:#3882F6;
+   border:1px solid white;
+   color:white;
+   height:30px;
+   width:90px;
+   }
+   .sign h1 {
+   font-size:48px;
+   font-weight:extra-bold;
+   }
+
+   .imager img{
+   width:500px;
+   height:260px;
+   border-radius:10px;
+   }
+
 .logos div{
 height:260px;
 width:500px;
@@ -94,13 +123,32 @@ width:950px;
 border:1px solid green;
 }
 .cards div{
+display:flex;
+flex-direction:column;
 height:230px;
 width:140px;
 border:1px solid black;
 }
+  .car .limg {
+  border:1px solid red;
+  height:130px;
+  width:140px;
+  border-radius:10px;
+  }
+  .car p {
+  text-align:center;
+  }
+  .car img {
+  height:130px;
+  width:140px;
+  border-radius:10px;
+  }
+
+
 
 .pgbloc .three{
 display:flex;
+flex-direction:column;
 justify-content:center;
 align-items:center;
 }
@@ -111,9 +159,11 @@ height:180px;
 width:800px;
 border: 1px solid green;
 }
-  .txt h2{
+  .three .txt h2{
   text-align:center;
-  font-style:;
+  font-size:36px;
+  font-weight:light;
+  font-style:italic;
   }
 .pgbloc .four {
 color:white;
@@ -128,6 +178,7 @@ flex-direction:row;
 height:150px;
 width:800px;
 border: 1px solid black;
+border-radius:9px;
 }
    .signup .um{
    height:150px;
