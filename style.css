@@ -12,9 +12,9 @@ flex-direction:column;
 height:100%;
 }
 
-.pgbloc div{
+/*.pgbloc div{
 border:2px solid blue;
-}
+}*/
 
 .pgbloc .one{
 background-color:#1F2937;
@@ -52,6 +52,10 @@ height:60px;
   font-weight:18px #E5E7EB;
   text-align:center;
   }
+  .header a {
+  text-decoration:none;
+  color:white;
+  }
   .he1 h3{
   text-align:center;
   font-weight:#F9FAF8;
@@ -67,7 +71,7 @@ display:flex;
 flex-direction:row;
 height:260px;
 width:1000px;
-border:1px solid white;
+/*border:1px solid white;*/
 }
    .sign button {
    background-color:#3882F6;
@@ -101,7 +105,7 @@ height:80px;
 .header div{
 height:80px;
 flex:1;
-border:2px solid red;
+/*border:2px solid red;*/
 }
 .header .he1{
 flex:2;
@@ -120,14 +124,14 @@ justify-content:center;
 gap:50px;
 height:250px;
 width:950px;
-border:1px solid green;
+/*border:1px solid green;*/
 }
 .cards div{
 display:flex;
 flex-direction:column;
 height:230px;
 width:140px;
-border:1px solid black;
+/*border:1px solid black;*/
 }
   .car .limg {
   border:1px solid red;
@@ -155,16 +159,24 @@ align-items:center;
 .three .txt{
 display:flex;
 flex-wrap:wrap;
-height:180px;
+height:230px;
 width:800px;
-border: 1px solid green;
+/*border: 1px solid green;*/
 }
   .three .txt h2{
   text-align:center;
   font-size:36px;
-  font-weight:light;
+  font-weight:250;
   font-style:italic;
   }
+  .txt p {
+  text-align:right;
+  font-size:24px;
+  font-weight:400;
+  font-style:normal;
+  }
+ 
+
 .pgbloc .four {
 color:white;
 display:flex;
@@ -177,13 +189,14 @@ display:flex;
 flex-direction:row;
 height:150px;
 width:800px;
-border: 1px solid black;
+/*border: 1px solid black;*/
 border-radius:9px;
 }
    .signup .um{
+   padding-left:5px;
    height:150px;
    flex:2;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
    }
    .signup .dois{
    display:flex;
@@ -191,7 +204,7 @@ border-radius:9px;
    align-items:center;
    height:150px;
    flex:1;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
    }
    .dois  button{
    background-color:#3882F6;
@@ -206,5 +219,5 @@ justify-content:center;
 align-items:center;
 }
      .bottom div{
-     border:1px solid white;
+     /*border:1px solid white;*/
      }
