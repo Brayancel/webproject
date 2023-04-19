@@ -1,0 +1,11 @@
+html{
+background-color:lightgreen;
+}
+
+.pgbloc {
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:640px;
+}
