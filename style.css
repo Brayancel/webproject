@@ -2,230 +2,136 @@ html {
 height:100%;
 }
 
-body {
-font-family:roboto;
-}
-
-.pgbloc{
+.header {
 display:flex;
-flex-direction:column;
-height:100%;
-flex-wrap:wrap;
-}
-
-/*.pgbloc div{
-border:2px solid blue;
-}*/
-
-.pgbloc .one{
-background-color:#1F2937;
-height:500px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-}
-.pgbloc .two{
-height:400px;
-}
-.pgbloc .three{
-background-color:#E5E7EB;
-height:400px;
-}
-.pgbloc .four{
-height:400px;
-}
-.pgbloc .bottom{
 background-color:#1F2937;
 color:white;
-height:80px;
+border:2px solid black;
+height:70px;
 }
-.pgbloc button {
-border-radius:8px;
-}
-.pgbloc .header {
-background-color:#1F2037;
-color:white;
-display:flex;
-height:60px;
-}
-  .header h3 {
-  font-size:18px;
-  text-align:center;
-  }
-  .header a {
-  text-decoration:none;
-  color:white;
-  }
-  .he1 h3{
-  text-align:center;
-  font-weight:#F9FAF8;
-  font-size:24px;
-  }
-
-
-
-.one .logos {
-text-align:left;
-color:white;
-display:flex;
-flex-direction:row;
-height:260px;
-width:1000px;
-/*border:1px solid white;*/
-}
-   .sign button {
-   background-color:#3882F6;
-   border:1px solid white;
-   color:white;
-   height:30px;
-   width:90px;
-   }
-   .sign h1 {
-   font-size:48px;
-   font-weight:extra-bold;
-   }
-
-   .imager img{
-   width:500px;
-   height:260px;
-   border-radius:10px;
-   }
-
-.logos div{
-height:260px;
-width:500px;
-}
-
-
-.pgbloc .bottom{
-display:flex;
-height:80px;
-}
-
-.header div{
-height:80px;
+.header div {
+border:1px solid black;
 flex:1;
-/*border:2px solid red;*/
 }
-.header .he1{
+.header .hdo {
+display:flex;
 flex:2;
 }
 
-.pgbloc .two{
+.pgbloc .bottom {
+display:flex;
+background-color:#1F2937;
+color:white;
+height:70px;
+border:1px solid green;
+}
+.bottom p{
+text-align:center;
+}
+
+.pgbloc {
 display:flex;
 flex-direction:column;
-align-items:center;
-justify-content:flex-start;
-
-/*new*/
-
-
+border:2px solid black;
+height:100%;
 }
-.two .cards{
+.pgbloc div{
+border:1px solid black;
+height:350px;
+}
+.pgbloc h2{
+text-align:center;
+}
+
+.pgbloc .um {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.um .logos{
+display:flex;
+height:250px;
+width:900px;
+border:1px solid blue;
+}
+.logos div{
+height:250px;
+flex:1;
+}
+.imagem img {
+height:250px;
+width:450px;
+}
+
+
+
+.pgbloc .dois{
+border:2px solid green;
+display:flex;
+flex-basis:300px;
+flex-wrap:wrap;
+height:100%;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+}
+.dois .cards {
+border:2px solid blue;
 display:flex;
 flex-direction:row;
+height:100%;
 justify-content:center;
-gap:50px;
-height:250px;
-width:950px;
-
-/*new*/
-
-
+justify-content:space-around;
+align-items:center;
+flex-basis:700px;
+flex-wrap:wrap;
 }
-.cards div{
+.cards .card {
 display:flex;
 flex-direction:column;
 height:230px;
-width:140px;
-/*border:1px solid black;*/
+width:130px;
+border:1px red solid;
 }
-  .car .limg {
-  border:3px solid #3882F6;
-  height:130px;
-  width:140px;
-  border-radius:10px;
-  }
-  .car p {
-  text-align:center;
-  }
-  .car img {
-  height:130px;
-  width:140px;
-  border-radius:10px;
-  }
+.card .limg {
+height:130px;
+width:130px;
+border:1px solid purple;
+}
+ .limg img {
+height:130px;
+width:130px;
+}
 
-
-
-.pgbloc .three{
+.pgbloc .tres {
 display:flex;
-flex-direction:column;
 justify-content:center;
 align-items:center;
 }
-.three .txt{
+.tres .frase{
 display:flex;
 flex-wrap:wrap;
-height:230px;
-width:800px;
-/*border: 1px solid green;*/
+height:280px;
+width:700px;
+border:1px solid blue;
 }
-  .three .txt h2{
-  text-align:center;
-  font-size:36px;
-  font-weight:250;
-  font-style:italic;
-  }
-  .txt p {
-  text-align:right;
-  font-size:24px;
-  font-weight:400;
-  font-style:normal;
-  }
- 
 
-.pgbloc .four {
-color:white;
+.pgbloc .quatro {
 display:flex;
 justify-content:center;
 align-items:center;
 }
-.four .signup{
-background-color:#3882F6;
+.quatro .signb {
 display:flex;
-flex-direction:row;
-height:150px;
+height:140px;
 width:800px;
-/*border: 1px solid black;*/
-border-radius:9px;
+border:2px solid red;
 }
-   .signup .um{
-   padding-left:5px;
-   height:150px;
-   flex:2;
-   /*border: 1px solid white;*/
-   }
-   .signup .dois{
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   height:150px;
-   flex:1;
-   /*border: 1px solid white;*/
-   }
-   .dois  button{
-   background-color:#3882F6;
-   border:1px solid white;
-   color:white;
-   height:30px;
-   width:90px;
-   }
-.pgbloc .bottom{
+.signb div {
 display:flex;
-justify-content:center;
-align-items:center;
+flex:1;
+height:140px;
 }
-     .bottom div{
-     /*border:1px solid white;*/
-     }
+.signb .qua1{
+flex:2;
+}
