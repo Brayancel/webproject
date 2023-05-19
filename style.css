@@ -60,24 +60,26 @@ border-radius:7px;
 
 .pgbloc .um {
 display:flex;
-flex-wrap:wrap;
-flex-direction:row;
+padding:33px;
+justify-content: center;
+align-items: center;
 height:100%;
-flex-basis:340px;
-justify-content:center;
-align-items:center;
+flex-basis: 300px;
+flex-wrap: wrap;
 background-color:#1F2937;
 }
 .um .logos {
 display:flex;
 flex-direction:row;
-height:83%;
-flex-basis:915px;
+justify-content: center;
+align-items: center;
+height:100%;
+flex-basis:914px;
 flex-wrap:wrap;
 }
 
 .logos div{
-height:280px;
+height:300px;
 width:450px;
 }
 .logos .signa {
@@ -95,8 +97,8 @@ color:white;
 font-size:18px;
 }
 .imagem img {
-height:280px;
-width:450px;
+height:300px;
+flex:1;
 }
 
 
@@ -165,10 +167,12 @@ height:100%;
 width:50%;
 }
 .tres .name{
+align-self: center;
 flex-wrap:wrap;
 text-align:right;
 font-size:24px;
 height:50px;
+width:700px;
 }
 
 
